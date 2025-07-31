@@ -1,0 +1,155 @@
+;; lif.mim -- Input method for Limbu
+;; Copyright (C) 2025/MIT
+;; Swarthmore College
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU Lesser General Public License as published by
+;; the Free Software Foundation; either version 2.1 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+;; Lesser General Public License for more details.
+
+;; You should have received a copy of the GNU Lesser General Public
+;; License along with the m17n library; if not, write to the Free
+;; Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+;; Boston, MA 02110-1301, USA.
+;;
+;; Author: Avyaya Singh
+
+(input-method t sirijunga-lif)
+
+(description "Limbu script layout")
+
+(title "Limbu script - Sirijanga")
+
+(map
+ (trans
+  ((KP_1) "᥇")
+  ((KP_2) "᥈")
+  ((KP_3) "᥉")
+  ((KP_4) "᥊")
+  ((KP_5) "᥋")
+  ((KP_6) "᥌")
+  ((KP_7) "᥍")
+  ((KP_8) "᥎")
+  ((KP_9) "᥏")
+  ((KP_0) "᥆")
+  ((KP_Decimal) ".")
+  ((KP_Divide) "/")
+  ((KP_Multiply) "*")
+  ((KP_Add) "+")
+  ((KP_Subtract) "-") 
+ 
+
+  ("~" "~")
+  ("`" "ᤲ")
+  ("1" "᥇")
+  ("!" "‍᥄")
+  ("2" "᥈")
+  ("@" "‌@")
+  ("#" "#")
+  ("3" "᥉")
+  ("$" "रु")
+  ("4" "᥊")
+  ((G-4) "$")
+  ("%" "%")
+  ("5" "᥋")
+  ("^" "^")
+  ("6" "᥌")
+  ("&" "&")
+  ("7" "᥍")
+  ("*" "*")
+  ("8" "᥎")
+  ("(" "(")
+  ("9" "᥏")
+  (")" ")")
+  ("0" "᥆")
+  ("_" "_")
+  ("-" "-")
+  ("+" "+")
+  ("=" "=")
+  ("Q" "ᤌ")
+  ("q" "ᤀ")
+  ("W" "ᤓ")
+  ("w" "ᤒ")
+  ("E" "ᤎ")
+  ("e" "ᤍ")
+  ("R" "ᤉ")
+  ("r" "ᤈ")
+  ("T" "ᤄ")
+  ("t" "ᤃ")
+  ("Y" "ᤚ")
+  ("y" "ᤛ")
+  ("u" "ᤘ")
+  ("U" "ᤫ")
+  ((G-i) "ᤷ")
+  ("I" "ᤪ")
+  ("i" "ᤖ")
+  ("O" "ᤩ")
+  ("o" "ᤕ")
+  ("P" "ᤨ")
+  ("p" "ᤠ")
+  ((G-p) "ᤀ")
+  ("{" "[")
+  ("[" "ᤧ")
+  ((G-[) "{")
+  ("}" "]")
+  ("]" "ᤣ")
+  ((G-]) "}")
+  ("A" "ᤴ")
+  ("a" "ᤏ")
+  ("S" "ᤱ")
+  ("s" "ᤅ")
+  ("D" "ᤳ")
+  ("d" "ᤋ")
+  ("F" "ᤰ")
+  ("f" "ᤁ")
+  ((G-f) "ᤀᤥᤲ")
+  ("G" "ᤵ")
+  ("g" "ᤐ")
+  ("h" "ᤗ")
+  ("H" "ᤸ")
+  ("J" "ᤶ")
+  ("j" "ᤔ")
+  ("K" "")
+  ("k" "ᤢ")
+  ("L" "᤹")
+  ("l" "ᤥ")
+  (":" ":")
+  ("\;" "ᤤ")
+  ("'" "ᤦ")
+  ("\"" "'")
+  ((G-') "\"")
+  ("\\" "ᤡ")
+  ("Z" "ᤝ")
+  ("z" "ᤊ")
+  ("X" "ᤞ")
+  ("x" "ᤂ")
+  ("C" "")
+  ("c" "ᤑ")
+  ("V" "")
+  ("v" "ᤆ")
+  ("B" "<")
+  ("b" "ᤇ")
+  ("N" ">")
+  ("n" "ᤙ")
+  ("M" ";")
+  ("m" "ᤜ")
+  ("<" "᤺")
+  ("," ",")
+  ((G-,) "᤻")
+  (">" "।")
+  ("." "॥")
+  ((G-.) "᥀")
+  ("?" "᥅")
+  ("/" "/")
+  ))
+
+
+(state
+ (init
+    (trans)))
+
