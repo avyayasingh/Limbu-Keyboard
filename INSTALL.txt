@@ -1,0 +1,6 @@
+To install:
+1) Install IBus
+2) Clone repo
+3) Copy lif.mim to ~/.m17n.d/ directory
+4) Restart IBus
+5) Find and enable t-sirijanga-lif in Other
